@@ -4,22 +4,22 @@
     "styles": [
       "cyan",
       "default",
-      "yellow",
       "simpleblue",
-      "blue",
-      "green",
+      "purple",
       "red",
-      "purple"
+      "yellow",
+      "green",
+      "blue"
     ],
     "version": "2.2",
     "customStyles": {
-      "mainBackgroundColor": "#454948"
+      "mainBackgroundColor": "#565c5b"
     }
   },
   "portalUrl": "https://jrsenecacollege.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "Customizing ArcGIS Web App Builder",
+  "title": "Assignment Four Map",
   "subtitle": "with Web AppBuilder for ArcGIS",
   "keepAppState": true,
   "logo": "images/app-logo.png",
@@ -111,8 +111,10 @@
       },
       {
         "position": {
-          "right": 110,
-          "top": 10,
+          "left": 45,
+          "top": 45,
+          "width": 400,
+          "height": 410,
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
@@ -120,8 +122,10 @@
       },
       {
         "position": {
-          "right": 60,
-          "top": 10,
+          "left": 95,
+          "top": 45,
+          "width": 380,
+          "height": 410,
           "relativeTo": "map"
         },
         "placeholderIndex": 2,
@@ -129,8 +133,10 @@
       },
       {
         "position": {
-          "right": 10,
-          "top": 10,
+          "left": 145,
+          "top": 45,
+          "width": 380,
+          "height": 410,
           "relativeTo": "map"
         },
         "placeholderIndex": 3,
@@ -247,21 +253,24 @@
         "index": 3
       },
       {
-        "name": "Measure",
-        "version": "2.1",
-        "uri": "widgets/Measure/Widget",
-        "config": "configs/Measure/config_Measure.json",
-        "index": 4,
-        "id": "widgets_Measure_Widget_33"
-      },
-      {
-        "name": "DistanceAndDirection",
+        "name": "CoordinateConversion",
         "version": "1.4",
         "keepConfigAfterMapSwithched": false,
-        "uri": "widgets/DistanceAndDirection/Widget",
-        "config": "configs/DistanceAndDirection/config_DistanceAndDirection.json",
+        "uri": "widgets/CoordinateConversion/Widget",
+        "config": "configs/CoordinateConversion/config_CoordinateConversion.json",
+        "index": 4,
+        "id": "widgets_CoordinateConversion_Widget_33"
+      },
+      {
+        "name": "SituationAwareness",
+        "version": "2.2",
+        "uri": "widgets/SituationAwareness/Widget",
+        "config": "configs/SituationAwareness/config_SituationAwareness.json",
         "index": 6,
-        "id": "widgets_DistanceAndDirection_Widget_34"
+        "id": "widgets_SituationAwareness_Widget_34",
+        "position": {
+          "relativeTo": "map"
+        }
       }
     ],
     "groups": []
@@ -305,8 +314,7 @@
           "uri": "widgets/HomeButton/Widget",
           "position": {
             "left": 7,
-            "top": 75,
-            "relativeTo": "map"
+            "top": 75
           },
           "version": "2.2"
         },
@@ -323,8 +331,7 @@
           "uri": "widgets/Search/Widget",
           "position": {
             "left": 45,
-            "top": 5,
-            "relativeTo": "map"
+            "top": 5
           },
           "version": "2.2"
         },
@@ -339,31 +346,33 @@
         },
         {
           "position": {
-            "right": 110,
+            "left": 45,
             "top": 45,
-            "relativeTo": "map"
+            "width": 400,
+            "height": 410
           }
         },
         {
           "position": {
-            "right": 60,
+            "left": 95,
             "top": 45,
-            "relativeTo": "map"
+            "width": 380,
+            "height": 410
           }
         },
         {
           "position": {
-            "right": 10,
+            "left": 145,
             "top": 45,
-            "relativeTo": "map"
+            "width": 380,
+            "height": 410
           }
         },
         {
           "uri": "widgets/OverviewMap/Widget",
           "position": {
             "right": 0,
-            "bottom": 0,
-            "relativeTo": "map"
+            "bottom": 0
           },
           "version": "2.2"
         },
@@ -372,8 +381,7 @@
           "inPanel": false,
           "position": {
             "left": 7,
-            "top": 110,
-            "relativeTo": "map"
+            "top": 110
           },
           "version": "2.2"
         },
