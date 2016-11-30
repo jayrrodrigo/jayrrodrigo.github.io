@@ -266,11 +266,19 @@
         "version": "2.2",
         "uri": "widgets/SituationAwareness/Widget",
         "config": "configs/SituationAwareness/config_SituationAwareness.json",
-        "index": 6,
+        "index": 5,
         "id": "widgets_SituationAwareness_Widget_34",
         "position": {
           "relativeTo": "map"
         }
+      },
+      {
+        "name": "Measure",
+        "version": "2.1",
+        "uri": "widgets/Measure/Widget",
+        "config": "configs/Measure/config_Measure.json",
+        "index": 7,
+        "id": "widgets_Measure_Widget_35"
       }
     ],
     "groups": []
