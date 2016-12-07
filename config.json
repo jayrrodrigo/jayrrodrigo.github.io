@@ -266,8 +266,24 @@
         "version": "2.2",
         "uri": "widgets/Measurement/Widget",
         "config": "configs/Measurement/config_Measurement.json",
-        "index": 7,
+        "index": 6,
         "id": "widgets_Measurement_Widget_34"
+      },
+      {
+        "name": "Measure",
+        "version": "2.1",
+        "uri": "widgets/Measure/Widget",
+        "config": "configs/Measure/config_Measure.json",
+        "index": 7,
+        "id": "widgets_Measure_Widget_35"
+      },
+      {
+        "name": "Share",
+        "version": "2.2",
+        "uri": "widgets/Share/Widget",
+        "config": "configs/Share/config_Share.json",
+        "index": 9,
+        "id": "widgets_Share_Widget_36"
       }
     ],
     "groups": []
