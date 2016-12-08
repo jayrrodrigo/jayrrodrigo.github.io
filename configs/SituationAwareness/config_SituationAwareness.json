@@ -22,8 +22,8 @@
   },
   "bufferLabel": "Buffer Distance",
   "bufferRange": {
-    "minimum": 50,
-    "maximum": 500
+    "minimum": 0,
+    "maximum": 100
   },
   "distanceUnits": "meters",
   "distanceSettings": {
@@ -34,7 +34,7 @@
     "yards": 9037,
     "nauticalMiles": 9030
   },
-  "maxDistance": 100,
+  "maxDistance": 30,
   "defaultZoomLevel": 13,
   "tabs": [
     {
