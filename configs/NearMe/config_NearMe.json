@@ -377,7 +377,7 @@
             "value": "Beach",
             "symbol": {
               "type": "picturemarkersymbol",
-              "url": "${appPath}/configs/NearMe/url_1.png",
+              "url": "${appPath}/configs/NearMe/url.png",
               "imageData": "http://static.arcgis.com/images/Symbols/Shapes/BlueCircleLargeB.png",
               "contentType": "image/png",
               "width": 11,
@@ -507,8 +507,8 @@
   "bufferInfo": {
     "isVisible": true
   },
-  "defaultBufferDistance": 40,
-  "maxBufferDistance": 100,
+  "defaultBufferDistance": 5,
+  "maxBufferDistance": 15,
   "bufferDistanceUnit": {
     "bufferUnit": "UNIT_METER",
     "routeUnit": "METER",
